@@ -18,6 +18,11 @@ class AppRoute {
   static const String hotelDetailsScreen = "/hotelDetailsScreen";
   static const String profile = "/profile";
 
+  static const String homescreen = "/homescreen";
+  static const String CameraView = "/CameraView";
+  static const String fromGalaryScan = "/fromGalaryScan";
+
+
 
 
 

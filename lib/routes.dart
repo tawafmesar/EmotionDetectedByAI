@@ -8,6 +8,9 @@ import 'package:emotiondetectedbyai/view/screen/auth/login.dart';
 import 'package:emotiondetectedbyai/view/screen/auth/signup.dart';
 import 'package:emotiondetectedbyai/view/screen/auth/success_signup.dart';
 import 'package:emotiondetectedbyai/view/screen/auth/verifycodesignup.dart';
+import 'package:emotiondetectedbyai/view/screen/camera_view.dart';
+import 'package:emotiondetectedbyai/view/screen/fromgalary_view.dart';
+import 'package:emotiondetectedbyai/view/screen/homescreen.dart';
 import 'package:emotiondetectedbyai/view/screen/homescreen/home.dart';
 import 'package:emotiondetectedbyai/view/screen/profilescreen.dart';
 
@@ -38,6 +41,14 @@ List<GetPage<dynamic>>? routes = [
 
 GetPage(name: AppRoute.homepage , page: () =>  Home()),
   GetPage(name: AppRoute.profile , page: () =>  ProfileScreen()),
+
+  GetPage(name: AppRoute.splash, page: () =>  SplashScreen()),
+
+  GetPage(name: AppRoute.homescreen, page: () =>  HomeScreen()),
+  GetPage(name: AppRoute.CameraView, page: () =>  CameraView()),
+  GetPage(name: AppRoute.fromGalaryScan, page: () =>  FromGalaryScan()),
+
+
 
 
 

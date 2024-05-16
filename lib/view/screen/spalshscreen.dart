@@ -17,12 +17,11 @@ class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
-
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(milliseconds: 4400), () {
+    Future.delayed(const Duration(milliseconds: 2100), () {
       Get.find<LocaleController>().changeLang("en");
       Get.offNamed("/");
     });
@@ -31,12 +30,11 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColor.primaryColor, // Set the background color to black
+      backgroundColor: Colors.blueAccent,
       body: Center(
-
-        child: Container(
-            color: const Color.fromRGBO(0, 74, 173, 1),
-            child: Image.asset('assets/images/logowhite.png')),
+        child: Image.asset(
+          'assets/images/1_DKSQVZdEa2GEv2ksxWViTg.gif',
+        ),
       ),
     );
   }

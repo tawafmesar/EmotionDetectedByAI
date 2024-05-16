@@ -24,6 +24,7 @@ class Login extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: AppColor.primaryColor,
+
         elevation: 0.0,
         title: Text(
           'Login',
