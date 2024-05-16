@@ -57,9 +57,7 @@ class FromGalaryScan extends StatelessWidget {
                 const SizedBox(height: 20),
 
 
-                CustomButtomAuth(text: "Save", onPressed: () {
 
-                }),
               ],
             ),
 
