@@ -1,4 +1,5 @@
 
+import 'package:emotiondetectedbyai/controller/homescreen_controller.dart';
 import 'package:emotiondetectedbyai/core/constant/color.dart';
 import 'package:emotiondetectedbyai/core/constant/routes.dart';
 import 'package:flutter/material.dart';
@@ -35,6 +36,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+
+    final controller =  Get.put(HomeScreenControllerrImp());
+
+
     return SafeArea(
         child: Scaffold(
           appBar: AppBar(
@@ -47,7 +52,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontFamily: 'SofiaSans',
                   fontSize: 20),
             ),
+            actions: [
 
+              SizedBox(width: 15,),
+              InkWell(
+                  onTap: () {
+                    controller.logout();
+
+                  },
+                  child:
+                  Icon(Icons.logout, size: 40.0, color:Colors.red)
+              ),
+              SizedBox(width: 10,),
+
+            ],
           ),
           backgroundColor: Colors.blueAccent,
           body: Container(

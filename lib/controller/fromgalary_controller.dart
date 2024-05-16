@@ -1,6 +1,7 @@
 import 'dart:developer' as developer;
 
 import 'package:camera/camera.dart';
+import 'package:emotiondetectedbyai/core/class/statusrequest.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tflite/flutter_tflite.dart';
 import 'package:get/get.dart';
@@ -22,6 +23,7 @@ import 'package:get/get.dart';
 
 
 class FromGalaryController extends GetxController {
+  StatusRequest statusRequest = StatusRequest.none;
 
   @override
   void onInit() {
