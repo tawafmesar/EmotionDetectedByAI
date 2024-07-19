@@ -66,19 +66,6 @@ class Login extends StatelessWidget {
                       iconData: Icons.email_outlined,
                       labeltext: "Email",
                     ),
-                    // if(controller.emailinit== '')
-                    //   CustonTextFormAuth(
-                    //     isNumber: false,
-                    //     valid: (val) {
-                    //       return validInput(val!, 5, 30, "password");
-                    //     },
-                    //     initialvalue: controller.emailinit ?? "",
-                    //     obscureText: true,
-                    //     mycontroller: controller.password,
-                    //     hinttext: "Enter your password",
-                    //     iconData: Icons.lock_outline,
-                    //     labeltext: "Password",
-                    //   )
 
 
                     CustonTextFormAuth(

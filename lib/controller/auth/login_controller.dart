@@ -62,7 +62,7 @@ class LoginControllerImp extends LoginController {
 
         } else {
           Get.defaultDialog(
-              title: "تنبيه", middleText: "البريد الألكتروني او كلمة المرور غير صحيحة");
+              title: "Alert", middleText: "Email or phone number is not correct");
           statusRequest = StatusRequest.failure;
         }
       }

@@ -11,8 +11,6 @@ import 'package:emotiondetectedbyai/view/screen/auth/verifycodesignup.dart';
 import 'package:emotiondetectedbyai/view/screen/camera_view.dart';
 import 'package:emotiondetectedbyai/view/screen/fromgalary_view.dart';
 import 'package:emotiondetectedbyai/view/screen/homescreen.dart';
-import 'package:emotiondetectedbyai/view/screen/homescreen/home.dart';
-import 'package:emotiondetectedbyai/view/screen/profilescreen.dart';
 
 import 'view/screen/spalshscreen.dart';
 
@@ -39,8 +37,7 @@ List<GetPage<dynamic>>? routes = [
   GetPage(name: AppRoute.successSignUp, page: () => const SuccessSignUp()),
   GetPage(name: AppRoute.verfiyCodeSignUp, page: () => const VerfiyCodeSignUp()),
 
-GetPage(name: AppRoute.homepage , page: () =>  Home()),
-  GetPage(name: AppRoute.profile , page: () =>  ProfileScreen()),
+
 
   GetPage(name: AppRoute.splash, page: () =>  SplashScreen()),
 

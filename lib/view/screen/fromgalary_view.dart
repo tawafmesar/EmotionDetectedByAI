@@ -44,7 +44,7 @@ class FromGalaryScan extends StatelessWidget {
                   child: Text(
                     advice,
                     style: TextStyle(
-                      fontSize: 28,
+                      fontSize: 27,
                       fontWeight: FontWeight.bold,
                       color: AppColor.primaryColor,
 
@@ -52,11 +52,7 @@ class FromGalaryScan extends StatelessWidget {
                     textAlign: TextAlign.left,
                   ),
                 ),
-
-
                 const SizedBox(height: 20),
-
-
 
               ],
             ),
@@ -188,28 +184,28 @@ class FromGalaryScan extends StatelessWidget {
                         print('1 Contempt........................');
                         _showBottomSheet(context , 'Contempt:  \n\n1. Reflect on the reasons behind your feelings and try to address the root cause.\n2. Communicate directly and honestly with the person involved5.\n3. Focus on empathy to understand the other person');
                         break;
-                      case '2 Disgust........................':
-                        print('Disgust');
+                      case '2 Disgust':
+                        print('Disgust........................');
                         _showBottomSheet(context , 'Disgust: \n\n1. Acknowledge your feelings without judgment and allow yourself to feel them fully before letting them go. \n2. Identify the trigger that caused your disgust and consider if there’s a way to avoid or address it in the future.\n3. Shift your focus to something pleasant or neutral to change your emotional state.');
 
                         break;
-                      case '3 Fear........................':
-                        print('Fear');
+                      case '3 Fear':
+                        print('Fear........................');
                         _showBottomSheet(context , 'Fear:  \n\n1. Recognize that fear is often rooted in the unknown; gather more information about what you’re afraid of to demystify it.\n2. Use visualization techniques to imagine yourself successfully handling the situation you’re afraid of.\n3. Build a support system of friends or family who can provide comfort and advice when you’re feeling scared.');
 
                         break;
-                      case '4 Happy........................':
-                        print('Happy');
+                      case '4 Happy':
+                        print('Happy........................');
                         _showBottomSheet(context , 'Happiness: \n\n1. Savor the moment by being fully present and mindful of your joy.\n2. Share your happiness with others to spread the positive emotions.\n3. Express gratitude for what’s making you happy, as it can prolong the feeling.');
 
                         break;
-                      case '5 Sadness........................':
+                      case '5 Sadness':
                         print('Sadness');
                         _showBottomSheet(context , 'Sadness: \n\n1. Allow yourself to grieve or feel sad, recognizing it as a natural and healthy emotion.\n2. Seek out comforting activities, such as reading a book or listening to music.\n3. Reach out to someone you trust to talk about your feelings.');
 
                         break;
-                      case '6 Surprise........................':
-                        print('Surprise');
+                      case '6 Surprise':
+                        print('Surprise........................');
                         _showBottomSheet(context , 'Surprise:\n\n1.Take a moment to process the unexpected event before reacting.\n2. Evaluate the surprise—is it positive, negative, or neutral? This can guide your response.\n3. Adapt to the situation by staying flexible and open-minded about the change.');
 
                         break;
